@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fast vacation booking website">
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Travling Website</title>
+</head>
+
+<body id="body" onload="loadCountries()">
+    <section>
+        <div class="d1" align="center">
+            <input type="text" placeholder="First Name..." class="inputNew">
+            <br>
+            <input type="text" placeholder="Last Name..." class="inputNew">
+            <br>
+            <input onchange="checkStates()" type="text" id="countryInput" placeholder="Country" list="list" class="inputNew">
+            <datalist id="list">
+            </datalist>
+            <input type="text" placeholder="City" class="inputNew" list="stateList">
+            <datalist id="stateList"></datalist>
+            <br>
+            <input type="text" placeholder="Destiny" class="inputNew">
+            <br>
+
+            <button type="button" id="flybutton" class="button-27">Let's Fly!</button>
+
+        </div>
+    </section>
+</body>
+
+</html>
+
+
+<!-- <script type="module">
+    import { output } from './script.js'
+    // document.querySelector('#flybutton').addEventListener('click', output)
+    window.output = output;
+</script> -->

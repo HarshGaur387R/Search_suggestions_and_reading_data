@@ -1,0 +1,14 @@
+{
+  "name": "travling_website_by_hg",
+  "version": "1.0.0",
+  "description": "this is a practice project website",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "travling_website"
+  ],
+  "author": "Harsh gaur",
+  "license": "ISC"
+}
